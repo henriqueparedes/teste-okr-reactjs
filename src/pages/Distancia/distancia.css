@@ -1,0 +1,39 @@
+.container {
+  background-color: #333f50;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.body {
+  background-color: #9dc3e6;
+  width: 75vw;
+}
+
+.cepInputs {
+  margin: 50px 80px;
+  padding: 15px 0px;
+  background-color: #5b9bd5;
+  display: block;
+}
+
+.cepInputs input {
+  display: block;
+  margin: 20px 50px;
+  height: 30px;
+  width: 340px;
+}
+
+.calcular {
+  background-color: green;
+  width: 340px;
+  height: 50px;
+  margin: 20px 50px;
+  border: none;
+}
+
+.results {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}

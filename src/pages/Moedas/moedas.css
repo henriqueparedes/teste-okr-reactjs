@@ -1,0 +1,42 @@
+.container {
+  background-color: #333f50;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+}
+
+.body {
+  background-color: #9dc3e6;
+  width: 75vw;
+}
+
+.selecao {
+  margin: 50px 80px;
+  padding: 15px 0px;
+  background-color: #5b9bd5;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+}
+
+.valorReal {
+  height: 30px;
+}
+
+.esquerda {
+  display: flex;
+}
+
+.esquerda select {
+  height: 30px;
+  margin-left: 25px;
+  width: 100px;
+}
