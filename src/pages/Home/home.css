@@ -8,10 +8,11 @@
 
 .body {
   background-color: #9dc3e6;
-  width: 75vw;
+  width: 80vw;
+  height: 100%;
 }
 
-h1 {
+.webpage-title {
   margin: 50px 80px;
   color: white;
 }

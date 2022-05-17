@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./moedas.css";
 import axios from "axios";
 
-export default function Distancia() {
+export default function Moedas() {
   const moedas = [
     "Escolha",
     "USD",
@@ -41,7 +41,14 @@ export default function Distancia() {
     <>
       <div className="container">
         <div className="body">
-          {/* <button onClick={getMoedas} /> */}
+          <div className="header-description">
+            <h1>Conversor de Moedas</h1>
+            <p>
+              Selecione uma moeda estrangeira, digite o valor em real que você
+              deseja converter para descobrir quanto você consegue trocar da sua
+              moeda local (BRL) para a moeda estrangeira selecionada.
+            </p>
+          </div>
           <div className="selecao">
             <form onSubmit={handleSubmit}>
               <div className="esquerda">
@@ -61,7 +68,7 @@ export default function Distancia() {
                   onChange={(e) => setValorEmReais(e.currentTarget.value)}
                   className="valorReal"
                 />
-                <button onClick={handleSubmit} className="calcular">
+                <button type="submit" className="calcular">
                   Calcular
                 </button>
               </div>

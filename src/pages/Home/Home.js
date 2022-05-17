@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className="container">
         <div className="body">
-          <h1>BEM VINDO AO DESAFIO FINAL - OKR</h1>
+          <h1 className="webpage-title">BEM VINDO AO DESAFIO FINAL - OKR</h1>
           <div className="biografia">
             <img src="./user.png" alt="usuario" />
             <p className="lorem">
@@ -39,6 +39,9 @@ export default function Home() {
             </a>
             <a href="https://docs.awesomeapi.com.br/api-de-moedas">
               https://docs.awesomeapi.com.br/api-de-moedas
+            </a>
+            <a href="https://docs.awesomeapi.com.br/api-cep">
+              https://docs.awesomeapi.com.br/api-cep
             </a>
           </div>
         </div>

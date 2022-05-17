@@ -1,16 +1,3 @@
-.container {
-  background-color: #333f50;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-}
-
-.body {
-  background-color: #9dc3e6;
-  width: 75vw;
-}
-
 .cepInputs {
   margin: 50px 80px;
   padding: 15px 0px;
@@ -36,4 +23,12 @@
 .results {
   margin-left: 60px;
   margin-bottom: 20px;
+}
+
+.header-description {
+  margin: 50px 80px;
+}
+
+.header-description p {
+  margin-top: 50px;
 }
