@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import CalculoMoedas from "../../componentes/MoedaResults/MoedaResults";
+import GreenButton from "../../componentes/GreenButton/GreenButton";
 
 import "./moedas.css";
 import axios from "axios";
@@ -68,19 +70,16 @@ export default function Moedas() {
                   onChange={(e) => setValorEmReais(e.currentTarget.value)}
                   className="valorReal"
                 />
-                <button type="submit" className="calcular">
-                  Calcular
-                </button>
+                <GreenButton text="calcular" />
               </div>
             </form>
           </div>
           {valorConvertido ? (
-            <div className="cepInputs">
-              <h2>
-                Resultado da Conversão: com R${valorEmReais} você consegue
-                comprar {moeda} {valorConvertido}
-              </h2>
-            </div>
+            <CalculoMoedas
+              valorEmReais={valorEmReais}
+              moeda={moeda}
+              valorConvertido={valorConvertido}
+            />
           ) : null}
         </div>
       </div>
