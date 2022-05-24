@@ -3,6 +3,7 @@ import React from "react";
 import "./home.css";
 
 export default function Home() {
+  const URL = window.location.href;
   return (
     <>
       <div className="container">
@@ -25,10 +26,10 @@ export default function Home() {
             </p>
           </div>
           <div className="opcoes">
-            <a href="http://localhost:3000/calculadora-distancia">
+            <a href={`${URL}calculadora-distancia`}>
               <button>Calculador de Distância</button>
             </a>
-            <a href="http://localhost:3000/calculadora-moedas">
+            <a href={`${URL}calculadora-moedas`}>
               <button>Converter Moedas</button>
             </a>
           </div>
