@@ -1,70 +1,34 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Aplicação realizada para avaliação na formação de ReactJS na empresa AX4B.
 
-### `npm test`
+Foi criado uma aplicação onde há uma página principal a qual tem 2 links para páginas com diferentes funcionalidades.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Também há uma seção de referencias com as APIs utilizadas para consumo nas páginas de CEP e Moedas.
 
-### `npm run build`
+Página inicial:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![imagem](public/page-home-okr.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Página de calculo de distancias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Nesta página o usuário informa 2 CEPs, e quando é clicado em consultar, é feita a consulta na API de CEPs e executa uma função a qual calcula a distancia entre os 2 CEPS, trazendo na tela também as informações de cada CEP digitado.
 
-### `npm run eject`
+![imagem](public/page-cep-okr.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Página de conversão de moedas:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Nesta página o usuário seleciona uma moeda que deseja que seja feita a conversão de Reais. Quando submetido a aplicação faz uma requisição para a API de moedas e traz o resultado do valor que seria possível comprar da respectiva moeda com o valor X de reais.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![imagem](public/page-moeda-okr.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Você consegue utilizar a aplicação aqui: https://teste-final-okr.herokuapp.com/
